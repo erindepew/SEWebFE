@@ -7,30 +7,26 @@ const fakeInventoryList = [{
   "Id": 110679305426212711,
   "Inventories": [
   {
-    "CurrentVolume": 0.0,
-    "MaxVolume": 9.223372E+12
-  },
-  {
-    "CurrentVolume": 0.013916,
-    "MaxVolume": 9.223372E+12,
+    "CurrentVolume": 6,
+    "MaxVolume": 9,
     "Items": [
       {
         "Type": "MyObjectBuilder_Ingot/Cobalt",
-        "Amount": 33.9410858,
-        "Mass": 33.9410858,
-        "Volume": 0.0038014017
+        "Amount": 10,
+        "Mass": 10,
+        "Volume": 1
       },
       {
         "Type": "MyObjectBuilder_Ingot/Gold",
-        "Amount": 1.131289,
-        "Mass": 1.131289,
-        "Volume": 5.88270268E-05
+        "Amount": 20,
+        "Mass": 20,
+        "Volume": 2
       },
       {
         "Type": "MyObjectBuilder_Ingot/Iron",
-        "Amount": 79.19589,
-        "Mass": 79.19589,
-        "Volume": 0.0100578787
+        "Amount": 30,
+        "Mass": 30,
+        "Volume": 3
       }
     ]
   }
@@ -84,12 +80,8 @@ const fakeInventoryList = [{
     "Id": 110679305426212711,
     "Inventories": [
       {
-        "CurrentVolume": 0.0,
-        "MaxVolume": 9.223372E+12
-      },
-      {
         "CurrentVolume": 0.013916,
-        "MaxVolume": 9.223372E+12,
+        "MaxVolume": 9.223372,
         "Items": [
           {
             "Type": "MyObjectBuilder_Ingot/Cobalt",
@@ -161,12 +153,8 @@ const fakeInventoryList = [{
     "Id": 110679305426212711,
     "Inventories": [
       {
-        "CurrentVolume": 0.0,
-        "MaxVolume": 9.223372E+12
-      },
-      {
         "CurrentVolume": 0.013916,
-        "MaxVolume": 9.223372E+12,
+        "MaxVolume": 9.223372,
         "Items": [
           {
             "Type": "MyObjectBuilder_Ingot/Cobalt",

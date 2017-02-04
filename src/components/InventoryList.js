@@ -12,7 +12,7 @@ export default class InventoryList extends React.Component {
     return (
       <div className="inventory-list--MAIN">
         <SearchField onCallBack={this.props.onCallBack}/>
-        {this.props.listItems.map((item, index) => <Inventory data={item} key={index} /> ) }
+        {this.props.listItems.map((item, index) => <Inventory data={item} id={index} key={index} /> ) }
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React from "react";
 import Checkbox from './Checkbox.js';
 import InputField from './InputField.js';
+import TreeGraph from './TreeGraph.js';
 
 const labelList = {
   OnOff: 'On/Off',
@@ -50,6 +51,7 @@ export default class Inventory extends React.Component {
             <Checkbox checked={property.get('Value')} callBack={() => this.toggleProperty(property.get('Name'))} label={labelList[property.get('Name')]} name={property.get('Name')} key={property.get('Name')} />
           )}
         </div>
+        <TreeGraph id={this.props.id} data={this.props.data.get('Inventories')}/>
       </div>
     );
   }
