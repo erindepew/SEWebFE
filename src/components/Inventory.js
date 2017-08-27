@@ -44,8 +44,10 @@ export default class Inventory extends React.Component {
   render() {
     return (
       <div className='inventory--MAIN'>
-        <Checkbox checked={false} callBack={() => this.toggleInventoryBlock()} label={false} name={this.props.data.get('Name')} key={this.props.data.get('Name')} />
-        <InputField value={this.props.data.get('Name')} callBack={() => this.changeBlockName()} ref='blockName'/>
+        <div className='inventory--header'>
+          <Checkbox checked={false} callBack={() => this.toggleInventoryBlock()} label={false} name={this.props.data.get('Name')} key={this.props.data.get('Name')} />
+          <InputField value={this.props.data.get('Name')} callBack={() => this.changeBlockName()} ref='blockName'/>
+        </div>
         <div className="inventory--properties-list">
           {this.props.data.get('Properties').filter((property) => property.get('Type') === 'Boolean').map((property) =>
             <Checkbox checked={property.get('Value')} callBack={() => this.toggleProperty(property.get('Name'))} label={labelList[property.get('Name')]} name={property.get('Name')} key={property.get('Name')} />

@@ -62,7 +62,7 @@ export default class TreeGraph extends React.Component {
 
   render() {
     return (
-      <div id={this.state.id} className="Chart"></div>
+      <div id={this.state.id} className="tree-graph--MAIN"></div>
     );
   }
 }
