@@ -80,26 +80,26 @@ const fakeInventoryList = [{
     "Id": 110679305426212711,
     "Inventories": [
       {
-        "CurrentVolume": 0.013916,
-        "MaxVolume": 9.223372,
+        "CurrentVolume": 8,
+        "MaxVolume": 10,
         "Items": [
           {
             "Type": "MyObjectBuilder_Ingot/Cobalt",
-            "Amount": 33.9410858,
-            "Mass": 33.9410858,
-            "Volume": 0.0038014017
+            "Amount": 2,
+            "Mass": 2,
+            "Volume": 2
           },
           {
             "Type": "MyObjectBuilder_Ingot/Gold",
-            "Amount": 1.131289,
-            "Mass": 1.131289,
-            "Volume": 5.88270268E-05
+            "Amount": 1,
+            "Mass": 1,
+            "Volume": 5
           },
           {
             "Type": "MyObjectBuilder_Ingot/Iron",
-            "Amount": 79.19589,
-            "Mass": 79.19589,
-            "Volume": 0.0100578787
+            "Amount": 3,
+            "Mass": 2,
+            "Volume": 2
           }
         ]
       }
